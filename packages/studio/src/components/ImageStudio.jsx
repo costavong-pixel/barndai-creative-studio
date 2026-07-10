@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { generateImage, generateI2I, uploadFile } from "../muapi.js";
+import { generateI2I, uploadFile } from "../muapi.js";
+import { generateImage } from "../barndApi.js";
 import DrawModal from "./DrawModal.jsx";
 import {
   t2iModels,
